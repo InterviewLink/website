@@ -33,5 +33,5 @@ COPY --from=builder /app/package.json ./package.json
 
 # Exposing port
 USER nextjs
-EXPOSE 443
+EXPOSE 80
 CMD ["yarn", "start"]
